@@ -1,0 +1,72 @@
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Styles */
+
+body{
+    background-color: black;
+}
+
+header{
+     background-image: linear-gradient(180deg, black, #302f2f, black);
+     
+}
+
+/* Nav related styles */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.fitness{
+    font-size: 2.25rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: #E6533C;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 2.5px;
+    border: 1px solid rgb(54, 53, 53);
+    border-radius: 39px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 3px 12px;
+}
+
+nav li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.home{
+    background-color: #E6533C;
+    border-radius: 39px;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 576px) {
+ 
+    nav{
+        flex-direction: column;
+    }
+
+}
