@@ -6,11 +6,13 @@
   font-style: normal;
 }
 
-.great-vibes-regular {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
+.allura-regular {
+  font-family: "Allura";
+  font-weight: 200;
+  font-size: 7rem;
   font-style: normal;
 }
+
 
 /* Shared Styles */
 
@@ -109,12 +111,14 @@ nav li a{
     border: none;
     border-radius: 42px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .download{
     margin-left: 10px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 .banner-pic{
@@ -130,7 +134,7 @@ nav li a{
     text-align: start;
     margin-left: -80px;
     margin-top: -160px;
-    padding: 12px 20px;
+    padding: 10px;
     background: rgba(146, 146, 146, 0.062); /* Semi-transparent white */
     backdrop-filter: blur(9px); /* Blur the background behind */
     border: 1px solid rgba(255, 255, 255, 0.116); 
@@ -142,8 +146,8 @@ nav li a{
     border: none;
     border-radius: 50%;
     background-color: #E6533C;
-    padding: 15px 15px; 
-    margin: 20px 10px 10px 0px;
+    padding: 8px 10px; 
+    margin: 15px 10px 10px 0px;
 }
 
 #tutorial-vid-num{
@@ -162,11 +166,15 @@ nav li a{
 
 /* Banner pic button number- 2 */
 
+.btn-2-cont{
+    margin-left: 250px;
+    margin-top: -360px;
+}
+
 .banner-pic-btn-2{
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: start;
-    margin-left: 220px;
-    background: rgba(255, 255, 255, 0.116); /* Semi-transparent white */
+    background: rgba(255, 255, 255, 0.034); /* Semi-transparent white */
     backdrop-filter: blur(9px);  /* Blur the background behind */
     border: 1px solid rgba(255, 255, 255, 0.116);
     border-radius: 12px;
