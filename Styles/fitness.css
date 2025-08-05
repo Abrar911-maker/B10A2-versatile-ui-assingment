@@ -84,6 +84,7 @@ nav li a{
     justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
+    padding: 0px;
 }
 
 .banner-title{
@@ -196,8 +197,53 @@ nav li a{
 
 @media screen and (max-width: 576px) {
  
+
     nav{
         flex-direction: column;
     }
+
+
+/* Banner section  */
+
+    .banner{
+    flex-direction: column;
+    max-width: 95%;
+}
+
+.banner-pic-btn-1{
+    margin-left: 20px;
+    margin-top: -320px;
+}
+
+.btn-2-cont{
+    margin-left: 185px;
+    margin-top: -300px;
+}
+
+.banner-pic-btn-2{
+    padding: 10px 10px;
+
+}
+#workout-vid-num{
+    font-size: 1.5rem;
+}
+
+.club{
+    display: none;
+}
+
+.banner-btn{
+    max-width: 170px;
+    max-height: 60px;
+    padding: 20px 40px;
+    
+}
+
+.download{
+    max-width: 170px;
+    max-height: 65px;
+    padding: 18px 25px;
+    margin-left: 40px;
+}
 
 }
