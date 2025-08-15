@@ -1,4 +1,3 @@
-
 .inter-regular {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -14,238 +13,315 @@
   font-style: normal;
 }
 
+.section-title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.section-description {
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* Shared Styles */
 
-body{
-    background-color: black;
-    
+body {
+  margin: 0;
+  background-color: black;
+  overflow-x: hidden;
 }
 
-header{
-     background-image: linear-gradient(180deg, black, #302f2f, black);
-     
+header {
+  background-image: linear-gradient(180deg, black, #302f2f, black);
 }
 
-#display-flex{
-    display: flex;
+#display-flex {
+  display: flex;
 }
 
 /* Nav related styles */
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
-.fitness{
-    font-size: 2.25rem;
-    font-weight: bolder;
-    font-style: italic;
-    color: #E6533C;
+.fitness {
+  font-size: 2.25rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: #e6533c;
 }
 
 nav ul {
-    display: flex;
-    gap: 30px;
-    padding: 2.5px;
-    border: 1px solid rgb(54, 53, 53);
-    border-radius: 39px;
+  display: flex;
+  gap: 30px;
+  padding: 2.5px;
+  border: 1px solid rgb(54, 53, 53);
+  border-radius: 39px;
 }
 
-nav ul li{
-    list-style: none;
-    padding: 5px 12px;
+nav ul li {
+  list-style: none;
+  padding: 5px 12px;
 }
 
-nav li a{
-    font-size: 1rem;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.671);
+nav li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.671);
 }
 
-
-.home{
-    background-color: #E6533C;
-    border-radius: 39px;
-    font-weight: 500;
+.home {
+  background-color: #e6533c;
+  border-radius: 39px;
+  font-weight: 500;
 }
 
-#home-color{
-    color: white;
+#home-color {
+  color: white;
 }
 
 /* Banner related styles */
 
-.banner{
-    display: flex;
-    justify-content: space-between;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0px;
 }
 
-.banner-title{
-    font-size: 4.8rem;
-    font-weight: bold;
-    padding: 0px;
-    margin-bottom: 0px;
-    color: white;
+.banner-title {
+  font-size: 4.8rem;
+  font-weight: bold;
+  padding: 0px;
+  margin-bottom: 0px;
+  color: white;
 }
 
-.banner-description{
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 28px;
+.banner-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 28px;
 }
 
-.banner-btn{
-    max-width: 224px;
-    max-height: 54px;
-    padding: 12px 35px;
-    font-size: 1rem;
-    text-decoration: none;
-    background-color: #E6533C;
-    color: white;
-    border: none;
-    border-radius: 42px;
-    font-weight: 500;
-    cursor: pointer;
+.banner-btn {
+  max-width: 224px;
+  max-height: 54px;
+  padding: 12px 35px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #e6533c;
+  color: white;
+  border: none;
+  border-radius: 42px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.download{
-    margin-left: 10px;
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    cursor: pointer;
+.download {
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 
-.banner-pic{
-    padding: 0px;
-    margin: 0px;
+.banner-pic {
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Banner pic button number- 1 */
 
-.banner-pic-btn-1{
-    display: flex;
-    align-items: center;
-    text-align: start;
-    margin-left: -80px;
-    margin-top: -160px;
-    padding: 10px;
-    background: rgba(146, 146, 146, 0.062); /* Semi-transparent white */
-    backdrop-filter: blur(9px); /* Blur the background behind */
-    border: 1px solid rgba(255, 255, 255, 0.116); 
-    border-radius: 12px;
-    cursor: pointer;
+.banner-pic-btn-1 {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  position: absolute;
+  bottom: 20px;
+  right: 400px;
+  padding: 1rem 1.5rem;
+  background: rgba(146, 146, 146, 0.062); /* Semi-transparent white */
+  backdrop-filter: blur(9px); /* Blur the background behind */
+  border: 1px solid rgba(255, 255, 255, 0.116);
+  border-radius: 12px;
+  cursor: pointer;
 }
 
-.ball{
-    border: none;
-    border-radius: 50%;
-    background-color: #E6533C;
-    padding: 8px 10px; 
-    margin: 15px 10px 10px 0px;
+.ball {
+  border: none;
+  border-radius: 50%;
+  background-color: #e6533c;
+  padding: 8px 10px;
+  margin: 15px 10px 10px 0px;
 }
 
-#tutorial-vid-num{
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 60px;
-    color: white;
+#tutorial-vid-num {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: white;
 }
 
-#vid-tutorial{
-    color: rgba(239, 237, 232, 0.61);
-    font-size: 0.90rem;
-    font-weight: normal;
+#vid-tutorial {
+  color: rgba(239, 237, 232, 0.61);
+  font-size: 0.9rem;
+  font-weight: normal;
 }
-
 
 /* Banner pic button number- 2 */
 
-.btn-2-cont{
-    margin-left: 250px;
-    margin-top: -360px;
+.btn-2-cont {
+  position: absolute;
+  left: 1100px;
+  bottom: 310px;
 }
 
-.banner-pic-btn-2{
-    padding: 10px 10px;
-    text-align: start;
-    background: rgba(255, 255, 255, 0.034); /* Semi-transparent white */
-    backdrop-filter: blur(9px);  /* Blur the background behind */
-    border: 1px solid rgba(255, 255, 255, 0.116);
-    border-radius: 12px;
-    cursor: pointer;
+.banner-pic-btn-2 {
+  padding: 1rem 1.5rem;
+  text-align: start;
+  background: rgba(255, 255, 255, 0.068); /* Semi-transparent white */
+  backdrop-filter: blur(9px); /* Blur the background behind */
+  border: 1px solid rgba(255, 255, 255, 0.116);
+  border-radius: 12px;
+  cursor: pointer;
 }
 
-#workout-vid-num{
-    font-size: 2rem;
-    font-weight: 800;
-    color: white;
+#workout-vid-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
 }
 
-#free-workout{
-    color: rgba(239, 237, 232, 0.61);
-    font-weight:100;
+#free-workout {
+  color: rgba(239, 237, 232, 0.61);
+  font-weight: 100;
 }
 
+/* Habits-section related styles */
 
+.habits-section {
+  margin: 1% 10%;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+}
+
+.habits-cards-pic {
+  border: 4px solid rgb(32, 31, 31);
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.card-despription {
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0px;
+}
 
 @media screen and (max-width: 576px) {
- 
+  
+  body{
+    margin: 0; 
+    overflow-x: hidden;
+  }
 
-    nav{
-        flex-direction: column;
-    }
+  header {
+    margin: 0px;
+    max-width: 100%;
+  }
+  main {
+    width: 100%;
+  }
 
-
-/* Banner section  */
-
-    .banner{
+  nav {
+    max-width: 100%;
     flex-direction: column;
-    max-width: 95%;
-}
+    margin: 0px 0px;
+  }
 
-.banner-pic-btn-1{
-    margin-left: 20px;
-    margin-top: -320px;
-}
+  nav ul {
+    gap: 15px;
+    padding: 1px;
+    border: 1px solid rgb(54, 53, 53);
+    border-radius: 20px;
+    margin: 0 auto;
+  }
 
-.btn-2-cont{
-    margin-left: 185px;
-    margin-top: -300px;
-}
+  /* Banner section  */
 
-.banner-pic-btn-2{
-    padding: 10px 10px;
+  .banner {
+    max-width: 100%;
+    padding: 0 10px;
+    flex-direction: column;
+  }
 
-}
-#workout-vid-num{
-    font-size: 1.5rem;
-}
+  .banner-p-pic {
+    max-width: 100%;
+    height: auto;
+  }
 
-.club{
+  .banner-pic-btn-1{
     display: none;
-}
+  }
 
-.banner-btn{
+  .btn-2-cont {
+   display: none;
+  }
+
+  #workout-vid-num {
+    font-size: 1.5rem;
+  }
+
+  .club {
+    display: none;
+  }
+
+  .banner-btn {
     max-width: 170px;
     max-height: 60px;
     padding: 20px 40px;
-    
-}
+  }
 
-.download{
+  .download {
     max-width: 170px;
     max-height: 65px;
     padding: 18px 25px;
     margin-left: 40px;
-}
+  }
 
+  /* Habits section  */
+
+  .habits-section {
+    margin: 50px auto;
+    padding: 0 15px;
+    
+  }
+
+  .cards-section {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 58px;
+  }
 }
